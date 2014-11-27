@@ -1,6 +1,6 @@
 # Site settings
 title: Project Gonzo
-email: blog.ee.telenor.io
+email: jan@telenordigital.com
 description: > # this means to ignore newlines until "baseurl:"
   With Gonzo we are building a small wireless always-on camera, connected
   over 2G, and with a month battery life.
