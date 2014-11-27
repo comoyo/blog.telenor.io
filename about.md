@@ -15,4 +15,8 @@ These questions need visual data to be answered, and are highly time specific. G
 
 We want to build Gonzo as cheap as possible, at a throw-away price point. To accomodate this we use off the shelf phone hardware running on top of a fork of [Firefox OS](http://github.com/janjongboom/janos). This blog shows the progress we are going through building the device and the software that powers it.
 
+![JSConf.asia]({{ site.baseurl }}/assets/about-gonzo.jpg)
+
+*Jan Jongboom demo'ing a first iteration Gonzo device during JSConf.asia. The camera is standing left on the speaker desk. The feed from the camera is shown on the screen.*
+
 Gonzo project members are [Olav Nymoen](https://github.com/OlavHN), [Bjorn Borud](http://blog.borud.no/), [Thomas Langaas](https://twitter.com/tlangaas) and [Jan Jongboom](http://janjongboom.com).
