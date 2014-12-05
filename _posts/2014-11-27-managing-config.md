@@ -4,6 +4,7 @@ title:  "Managing configuration on the device"
 date:   2014-11-27 16:44:55
 categories: gonzo device-software
 author: "Jan Jongboom"
+project: Gonzo
 ---
 
 There is a variety of configuration options on the device that need to be managed, from the interval in which photos are made, to the API URL of the server. When you think over all the configuration options we have we can put them in three categories:

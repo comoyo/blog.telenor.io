@@ -1,13 +1,13 @@
 # Site settings
-title: Project Gonzo
-email: jan@telenordigital.com
+title: Exploratory Engineering
 description: > # this means to ignore newlines until "baseurl:"
-  With Gonzo we are building a small wireless always-on camera, connected
-  over 2G, and with a month battery life.
+  Exploratory Engineering is a concept where we run targeted 3 month projects
+  exploring some high-risk / high-potential-return area, within Telenor Digital.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.ee.telenor.io" # the base hostname & protocol for your site
-twitter_username: janjongboom
 github_username:  comoyo
+website: "http://telenordigital.com/"
+websiteTitle: Telenor Digital
 
 # Build settings
 markdown: kramdown

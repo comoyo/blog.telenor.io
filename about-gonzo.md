@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Gonzo
+permalink: /about-gonzo/
 ---
 
 Project Gonzo is a project in the Exploratory Engineering program in [Telenor Digital](http://telenordigital.com/) where we aim to build a cheap, always-on camera that is available over an internet connection. With Gonzo we want to answer questions that currently require physical presence:

@@ -4,6 +4,7 @@ title:  "Timelapse"
 date:   2014-11-28 15:44:28
 categories: gonzo cloud-software
 author: "Jan Jongboom"
+project: Gonzo
 ---
 
 <video src="{{ site.baseurl }}/assets/gonzo-timelapse.webm" controls></video>
