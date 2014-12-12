@@ -11,3 +11,6 @@ websiteTitle: Telenor Digital
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from
