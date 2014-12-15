@@ -6,6 +6,8 @@ redirect_from:
 permalink: /about-gonzo/
 ---
 
+<a class="want-one" href="http://gonzo.launchrock.com">I want a Gonzo!</a>
+
 Project Gonzo is a project in the Exploratory Engineering program in [Telenor Digital](http://telenordigital.com/) where we aim to build a cheap, always-on camera that is available over an internet connection. With Gonzo we want to answer questions that currently require physical presence:
 
 * How big are the waves in Playa de Valdevaqueros?
@@ -22,3 +24,5 @@ We want to build Gonzo as cheap as possible, at a throw-away price point. To acc
 *Jan Jongboom demo'ing a first iteration Gonzo device during JSConf.asia. The camera is standing left on the speaker desk. The feed from the camera is shown on the screen.*
 
 Gonzo project members are [Olav Nymoen](https://github.com/OlavHN), [Bjorn Borud](http://blog.borud.no/), [Thomas Langaas](https://twitter.com/tlangaas) and [Jan Jongboom](http://janjongboom.com).
+
+<a class="want-one" href="http://gonzo.launchrock.com">I want a Gonzo!</a>

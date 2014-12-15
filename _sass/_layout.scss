@@ -238,3 +238,18 @@
 .projects {
     color: #aaa;
 }
+
+a.want-one {
+    display: block;
+    text-decoration: none;
+    color: green;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 0px;
+    border: 2px solid darkgreen;
+    margin-bottom: 20px;
+}
+a.want-one:hover, a.want-one:active {
+    text-decoration: underline;
+    background: rgba(0, 255, 0, 0.1);
+}
