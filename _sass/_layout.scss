@@ -253,3 +253,14 @@ a.want-one:hover, a.want-one:active {
     text-decoration: underline;
     background: rgba(0, 255, 0, 0.1);
 }
+
+.post-content, .post-list {
+    table {
+        width: 100%;
+        margin-bottom: 20px;
+
+        th {
+            text-align: left;
+        }
+    }
+}
