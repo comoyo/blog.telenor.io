@@ -23,4 +23,6 @@ We want to build Gonzo as cheap as possible, at a throw-away price point. To acc
 
 Gonzo project members are [Olav Nymoen](https://github.com/OlavHN), [Bjorn Borud](http://blog.borud.no/), [Thomas Langaas](https://twitter.com/tlangaas) and [Jan Jongboom](http://janjongboom.com).
 
+For press inquiries please contact [Jan Jongboom](mailto:jan@telenordigital.com).
+
 <a class="want-one" href="http://gonzo.launchrock.com">I want a Gonzo!</a>
