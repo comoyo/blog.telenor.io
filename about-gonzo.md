@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Gonzo
+title: Gonzo
 redirect_from:
   - /about/
 permalink: /about-gonzo/
