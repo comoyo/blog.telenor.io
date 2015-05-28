@@ -4,7 +4,7 @@ title:  "Timelapse"
 date:   2014-11-28 15:44:28
 categories: gonzo cloud-software
 author: "Jan Jongboom"
-project: Gonzo
+tags: gonzo
 comments: false
 ---
 

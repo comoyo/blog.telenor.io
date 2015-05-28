@@ -4,7 +4,7 @@ title:  "Power consumption"
 date:   2014-12-05 17:03:12
 categories: gonzo hardware
 author: "Jan Jongboom"
-project: Gonzo
+tags: gonzo
 comments: false
 ---
 

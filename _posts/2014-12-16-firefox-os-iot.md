@@ -4,7 +4,7 @@ title:  "Firefox OS as an Internet of Things platform"
 date:   2014-12-16 09:13:00
 categories: gonzo hardware
 author: "Jan Jongboom"
-project: Gonzo
+tags: gonzo
 comments: false
 ---
 

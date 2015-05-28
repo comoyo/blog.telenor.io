@@ -4,7 +4,7 @@ title:  "A live feed from the canals"
 date:   2014-12-15 15:48:00
 categories: gonzo
 author: "Jan Jongboom"
-project: Gonzo
+tags: gonzo
 comments: false
 ---
 

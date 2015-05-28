@@ -4,7 +4,7 @@ title:  "Managing configuration on the device"
 date:   2014-11-27 16:44:55
 categories: gonzo device-software
 author: "Jan Jongboom"
-project: Gonzo
+tags: gonzo
 comments: false
 ---
 
