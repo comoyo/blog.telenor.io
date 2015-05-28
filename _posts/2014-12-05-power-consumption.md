@@ -5,6 +5,7 @@ date:   2014-12-05 17:03:12
 categories: gonzo hardware
 author: "Jan Jongboom"
 project: Gonzo
+comments: false
 ---
 
 My idea for [Gonzo]({{ site.baseurl }}/about-gonzo/), from the very moment the idea sparked in my head last September (although that's another story), was that we should aim for insane battery life. I want people to put up their Gonzo at hard to reach places without them having to worry to charge the device every week. That means that power consumption was our biggest concern when we started doing this project. How do you keep a device alive for at least a month? How much battery do we need to fulfill all our wishes, etc? The first thing we (and by we, I actually mean Thomas) did to achieve this goal was to set up proper power measurement equipment. A nice thing about reusing existing hardware is that a big portion of the work was already done for us by Mozilla engineer [Jon Hylands](https://github.com/JonHylands). For power measurement you need a (3D printed) harness, a PCB to connect battery and main board, a power meter, and some software to read the data from the meter. All of that was already written up by Jon in a blog post on [Mozilla Hacks](https://hacks.mozilla.org/2014/04/measuring-power-consumption-on-phones/).

@@ -1,16 +1,47 @@
 # Site settings
-title: Exploratory Engineering
-description: > # this means to ignore newlines until "baseurl:"
-  Exploratory Engineering is a concept where we run targeted 3 month projects
-  exploring some high-risk / high-potential-return area, within Telenor Digital.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.ee.telenor.io" # the base hostname & protocol for your site
+title: Engineering @TelenorDigital
+description: A blog from the Telenor Digital engineers
+baseurl: ""
+url:
 github_username:  comoyo
 website: "http://telenordigital.com/"
 websiteTitle: Telenor Digital
 
-# Build settings
-markdown: kramdown
+image: #default image for all posts
+  feature: abstract-1.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Oslo
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# Amount of posts to show on home page
+paginate: 5
+
+owner:
+  name:           Telenor Digital
+  bio:            "Hacking like crazy in Oslo, Trondheim, Amsterdam and beyond"
+
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: TelenorDigital
+  facebook: telenordigital
+  github: comoyo
+  stackexchange:
+  linkedin: telenor-digital

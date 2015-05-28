@@ -5,6 +5,7 @@ date:   2014-12-15 15:48:00
 categories: gonzo
 author: "Jan Jongboom"
 project: Gonzo
+comments: false
 ---
 
 Yes, a live feed from the Amsterdam canals through [Gonzo]({{ site.baseurl }}/about-gonzo/), for everyone to admire. Actually the moment we speak the sun is setting, and Gonzo is taking a photo every 30 seconds to capture that magic moment. To see the live feed from Gonzo in your browser: [click here](https://gonzo-iot.firebaseapp.com/bcerk8wv).

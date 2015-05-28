@@ -5,6 +5,7 @@ date:   2014-12-16 09:13:00
 categories: gonzo hardware
 author: "Jan Jongboom"
 project: Gonzo
+comments: false
 ---
 
 When developing [Gonzo]({{ site.baseurl }}/about-gonzo/), our wireless camera, one of the big questions that pops up is: 'Why does it run Firefox OS?'. At first it indeed seems like a weird fit, a camera that runs an operating system for mobile phones. An operating system that is even mostly targeted at the developing world. But Firefox OS is a better fit for embedded devices than you might think at first glance.
@@ -27,10 +28,12 @@ This shows in other components as well. Adding a decent touch screen to the mate
 
 The full UI of Firefox OS is rendered through Gecko, the browser engine that also powers Firefox on Android and on desktop, including the dial screen; SMS application; and the camera viewfinder. To get that to work Mozilla added JavaScript APIs for any phone sensor or function that you find on the device. For example, Firefox OS allows you to make a call through:
 
-    var call = navigator.mozTelephony.dial('+1555332134');
-    call.addEventListener('connected', function() {
-       call.hangUp();
-    });
+{% highlight javascript %}
+var call = navigator.mozTelephony.dial('+1555332134');
+call.addEventListener('connected', function() {
+   call.hangUp();
+});
+{% endhighlight %}
 
 Thus when we strip off the UI we are left with a small computer (in a phone casing) that runs the Linux kernel and a JavaScript engine with bindings to all awesome phone things. Which sounds a bit like the [Tessel](https://tessel.io/) microcontroller. On top of that, it's running on an extremely stable and well tested platform. Although there is quite some criticism on the performance of low cost Firefox OS devices, phones running the OS have been sold in over 25 countries.
 
