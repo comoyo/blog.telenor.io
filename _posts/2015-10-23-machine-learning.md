@@ -3,7 +3,7 @@ layout:   post
 title:    "Live analyzing movement through machine learning"
 date:     2015-10-23 11:51:00
 author:   "Bjørn Remseth and Jan Jongboom"
-tags:     deep-learning hackathon
+tags:     machine-learning hackathon
 comments: false
 ---
 
@@ -26,6 +26,10 @@ To get some nice training data, we then take an ordinary Android or iOS phone, n
 <img src="{{ site.baseurl }}/assets/movement1.png" width="200" title="The client application"> <img src="{{ site.baseurl }}/assets/movement2.png" width="430" title="Raw data flowing into the computer">
 
 *Data gets measured 30 times per second and dumped into a file*
+
+Just plotting the gyro data into Excel already gives us some interesting insights. We see the steps happening on 'gyro-beta' (upper leg moving front to back), and we see me turining around at the end of the room at 'gyro-alpha'. Now humans are great at pattern recognition, but can we train a computer to do the same?
+
+<img src="{{ site.baseurl }}/assets/movement4.png" title="Excel machine learning">
 
 ## Training the model
 
