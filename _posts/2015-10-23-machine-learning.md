@@ -31,6 +31,8 @@ Just plotting the gyro data into Excel already gives us some interesting insight
 
 <img src="{{ site.baseurl }}/assets/movement4.png" title="Excel machine learning">
 
+(the vertical lines are an artifact coming from the fact that we use a 0-360 degree scale that wraps around)
+
 ## Training the model
 
 The problem we are solving is a classification problem: Given some data, we must determine which label in a list of labels best describes the data. 
@@ -74,9 +76,9 @@ slice = [column[1] for column in slice]
 {% endhighlight %}
 
 Column [1] is the beta channel of the accelerometer, and that is the only
-thing we care about when we do the FFT.
+thing we care about when we do feature extraction and analysis.
 
-* We chopped the data into three second segments, and then performed a discrete fourier transform (FFT), chunking into buckets and removing all components with higher frequencies than 5 Hz (by inspection it didn't seem to be much of interest in higher frequency parts of the spectrum anyway).
+* We chopped the data into three second segments, and then performed a discrete fourier transform (using the fast fourier transform "FFT"), chunking into buckets and removing all components with higher frequencies than 5 Hz (by inspection it didn't seem to be much of interest in higher frequency parts of the spectrum anyway).  These truncated and chunked  FFT spectra were then used as feature vectors by the machine learning algorithm.
 
 The feature vectors are simply FFT power spectra:
             
@@ -100,7 +102,7 @@ if arguments['--normalize']:
     buckets = map(lambda x: x/sum_of_buckets, buckets)
 {% endhighlight %}
 
-> The 0.0000001 is just to avoid dividing by zero when normalizing, if the data consists of only zeros, it's a hack, it's a hackathon, these things happen there...
+> The 0.0000001 is just to avoid dividing by zero when normalizing, if the data consists of only zeros, it's a hack, it's a hackathon, these things happen ...
 
 The parameters that we're passing into this function are the number of bucket's we're using (40) and the cutoff frequence (5 Hz), giving the buckets a resolution of 1/8 Hz.
 
@@ -117,7 +119,7 @@ with open("../logs/precision-recall-time-evolution.csv", "a") as myfile:
 
 <img src="{{ site.baseurl }}/assets/hackathon-2015-precision-recall.jpg" title="Precisionn/recall time evolution">
 
-The x-axis is time in milliseconds since epoch (because, unix).  The plot starts right after we got the first data in, and we ran it through the classifier and found that it was amazingly good. Unfortunately we were looking at 30 second samples, not three second samples so we were in all likelihood overfitting.  When we chopped things into 3 seconds samples performance got a lot worse. Then it improved a little as we removed some trivial bugs. Then we went home to sleep (which shows up as the  straight line in the plot). 
+The x-axis is time in seconds since epoch (because, unix).  The plot starts right after we got the first data in, and we ran it through the classifier and found that it was amazingly good. Unfortunately we were looking at 30 second samples, not three second samples so we were in all likelihood overfitting.  When we chopped things into 3 seconds samples performance got a lot worse. Then it improved a little as we removed some trivial bugs. Then we went home to sleep (which shows up as the  straight line in the plot). 
 
 ### Improving the model
 
