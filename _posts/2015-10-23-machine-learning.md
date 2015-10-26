@@ -75,7 +75,7 @@ slice = self.data[first:last]
 slice = [column[1] for column in slice]
 {% endhighlight %}
 
-Column [1] is the beta channel of the accelerometer, and that is the only
+Column [1] is the beta channel of the gyroscope, and that is the only
 thing we care about when we do feature extraction and analysis.
 
 * We chopped the data into three second segments, and then performed a discrete fourier transform (using the fast fourier transform "FFT"), chunking into buckets and removing all components with higher frequencies than 5 Hz (by inspection it didn't seem to be much of interest in higher frequency parts of the spectrum anyway).  These truncated and chunked  FFT spectra were then used as feature vectors by the machine learning algorithm.
