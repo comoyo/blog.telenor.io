@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    "Live analyzing movement through machine learning"
-date:     2015-10-23 11:51:00
+date:     2015-10-26 14:00:00
 author:   "Bjørn Remseth and Jan Jongboom"
 tags:     machine-learning hackathon
 comments: false
@@ -27,11 +27,11 @@ To get some nice training data, we then take an ordinary Android or iOS phone, n
 
 *Data gets measured 30 times per second and dumped into a file*
 
-Just plotting the gyro data into Excel already gives us some interesting insights. We see the steps happening on 'gyro-beta' (upper leg moving front to back), and we see me turining around at the end of the room at 'gyro-alpha'. Now humans are great at pattern recognition, but can we train a computer to do the same?
+Just plotting the gyro data into Excel already gives us some interesting insights. We see the steps happening on 'gyro-beta' (upper leg moving front to back), and we see me turning around at the end of the room at 'gyro-alpha'. Now humans are great at pattern recognition, but can we train a computer to do the same?
 
 <img src="{{ site.baseurl }}/assets/movement4.png" title="Excel machine learning">
 
-(the vertical lines are an artifact coming from the fact that we use a 0-360 degree scale that wraps around)
+*The vertical lines are an artifact coming from the fact that we use a 0-360 degree scale that wraps around*
 
 ## Training the model
 
@@ -117,7 +117,7 @@ with open("../logs/precision-recall-time-evolution.csv", "a") as myfile:
     myfile.write(record)
 {% endhighlight %}
 
-<img src="{{ site.baseurl }}/assets/hackathon-2015-precision-recall.jpg" title="Precisionn/recall time evolution">
+<img src="{{ site.baseurl }}/assets/hackathon-2015-precision-recall.jpg" title="Precision/recall time evolution">
 
 The x-axis is time in seconds since epoch (because, unix).  The plot starts right after we got the first data in, and we ran it through the classifier and found that it was amazingly good. Unfortunately we were looking at 30 second samples, not three second samples so we were in all likelihood overfitting.  When we chopped things into 3 seconds samples performance got a lot worse. Then it improved a little as we removed some trivial bugs. Then we went home to sleep (which shows up as the  straight line in the plot). 
 
@@ -195,7 +195,7 @@ Based on that we can create a simple [web page](https://github.com/la3lma/moveme
 
 We were incredibly surprised how far we managed to get in 36 hours. The classifier is rough around the edges, and more training data probably helps, it's surprising to see how well the classifier already manages to distinguish movement. It's even more surprising to see that we even managed to get proper results by just using one out of the six axes. Just imagine how much better this can get with more data. Machine learning is really maturing.
 
-I'd like to encourage everyone reading this to actually try our project. We already trained the model, and all code and instructions are listed in [this GitHub repo](https://github.com/la3lma/movement-analysis). You'll just need a phone. Of course you can just throw away our model and use our code to train a completely new one. To get you started we already included some data of people walking up the stairs. Try feeding that data into the model, and see what happens, we'd love to see your results!
+I'd like to encourage everyone reading this to actually try our project. We already trained the model, and all code and instructions are listed in [this GitHub repo](https://github.com/la3lma/movement-analysis). You'll just need a phone. Of course you can just throw away our model and use our code to train a completely new one. To get you started we already included some data of people walking up the stairs. Try feeding that data into the model, and see what happens. We'd love to see your results!
 
 ---
 
