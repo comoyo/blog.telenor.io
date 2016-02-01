@@ -11,4 +11,3 @@ Telenor Digital is a community within Telenor that exists to shape the companyâ€
 
 Our offices are located  in Norway (HQ in Oslo and a team office in Trondheim) and in the Netherlands (Amsterdam). We also have several brilliant teammates located in all of our 13 markets in the Nordics, CEE and Asia.
 
-## All code snippets on this blog are licensed under the [Apache 2.0 License](/LICENSE).
