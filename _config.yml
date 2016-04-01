@@ -15,6 +15,7 @@ image: #default image for all posts
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate
 
 sass:
   sass_dir: _sass
