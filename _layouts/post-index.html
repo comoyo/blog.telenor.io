@@ -21,11 +21,11 @@
 
   {% if page.image.feature %}
     <div class="entry-image">
-      <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
     </div><!-- /.entry-image -->
   {% else %}
     <div class="entry-image">
-      <img src="{{ site.url }}/images/{{ site.image.feature }}" alt="{{ page.title }}">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.image.feature }}" alt="{{ page.title }}">
     </div><!-- /.entry-image -->
   {% endif %}
   <div class="header-title">
