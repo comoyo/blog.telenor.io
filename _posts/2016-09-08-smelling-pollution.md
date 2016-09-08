@@ -2,7 +2,6 @@
 layout: post
 title:  "Smelling Pollution"
 date:   2016-09-08 11:20:00
-categories: iot waqi big-data services pollution air-quality innovation
 author: "Sergi Mansilla"
 tags: iot waqi big-data services pollution air-quality
 comments: false
