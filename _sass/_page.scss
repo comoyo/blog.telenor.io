@@ -26,6 +26,11 @@ body {
 	}
 }
 
+.author-photo {
+  width: calc(100% - 40px);
+  margin: 10px 20px;
+}
+
 // Entry Header
 // --------------------------------------------------
 .entry-header {
