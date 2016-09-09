@@ -39,6 +39,7 @@ paginate: 5
 owner:
   name:           Telenor Digital
   bio:            "Hacking like crazy in Oslo, Trondheim, Barcelona and beyond"
+  avatar:         telenor_digital_white.png
 
   # Social networking links used in footer. Update and remove as you like.
   twitter: TelenorDigital
