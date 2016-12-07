@@ -10,7 +10,7 @@ comments: false
 <img src="/images/uio-poster.jpg" alt="UiO Telenor Digital Research Competition"/>
 <br/>
 
-# Kick start your career!
+# Kickstart your career!
 
 Join SAI and Telenor Digital’s research competition!
 SAI & Telenor Digital invite all anthropology and SV students to participate.
@@ -59,3 +59,7 @@ Submit your proposal by 01.02.2017
 * Runners-up prizes for a value of 1000-2000 NOK
 * The opportunity to present your findings to Telenor Digital.
 * Shadow day tailored especially for you! Get first-hand experience on how your education can be put to work in an organisation like Telenor.
+
+## I’m still confused, how can I contact you?
+
+Send an email to cecilie dot perez at telenorditigal dot com
