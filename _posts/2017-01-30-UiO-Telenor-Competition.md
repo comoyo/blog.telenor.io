@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "SAI Telenor Digital Research Competition"
-date:   2016-12-07 17:00:00
+date:   2017-01-30 17:00:00
 author: "Cecilie Perez"
 tags: UiO Blindern Research Competition SAI
 comments: false
 ---
 
-<img src="/images/uio-poster.jpg" alt="UiO Telenor Digital Research Competition"/>
+<img src="/images/uio-poster.png" alt="UiO Telenor Digital Research Competition"/>
 <br/>
 
 # Kickstart your career!
@@ -17,7 +17,7 @@ SAI & Telenor Digital invite all anthropology and SV students to participate.
 
 ## How will this work, and how can I participate?
 
-1. Submit a short 1-2 page research proposal by 01.02.2017, to be evaluated by SAI and Telenor staff.
+1. Send an email with your research proposal (1-2 pages) to cecilie dot perez at telenorditigal dot com by 20.02.2017. Your proposal will be evaluated by SAI and Telenor staff.
 2. February 2017: the proposals that made it to the final will be announced. All finalists get a small prize. The finalists will have about one month to complete their proposed research.
 3. All finalists will receive individual guidance from SAI and Telenor.
 4. The finalists will present their findings to Telenor and SAI staff, in late March
