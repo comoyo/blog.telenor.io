@@ -51,7 +51,7 @@ You are free to choose your own research question(s) as long as it relates to th
 
 ## When is the deadline?
 
-Submit your proposal by 01.02.2017
+Submit your proposal by 20.02.2017
 
 ## What can I win?
 
