@@ -8,7 +8,7 @@ categories: Security
 comments: false
 ---
 
-<img src="{{ site.baseurl }}/assets/security_agile.jpeg" title="I totally wanted a pic where security is in control">
+<img src="{{ site.baseurl }}/assets/Security_agile.jpeg" title="I totally wanted a pic where security is in control">
 
 Software security is an important part of the overall security in Telenor Digital. The outset for building secure software in Telenor Digital is to embrace the opportunities that DevOps approaches like agile, continuous integration and continuous delivery give us to improve security. As our organisation doesn´t have a massive history of legacy systems and legacy ways of working – we are allowed to tap from some of the most recent practices for securing our code. It is the ideal starting point for a journey to improve our software security.
 
