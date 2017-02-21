@@ -2,6 +2,6 @@
 setup:
 	bundle install
 
-.PHONY: run
-run:
-	bundle exec jekyll run
+.PHONY: serve
+serve:
+	bundle exec jekyll serve
