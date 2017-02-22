@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "VR: The Hype is Real This Time, Promise!"
+title:  "Virtual Reality: The Hype is Real This Time, Promise!"
 date:   2017-02-21 16:00:00
 author: "Aleksander Vognild Burkow"
 tags: Virtual Reality HTC Vive Oculus Rift Resident Evil 7 Hype VR
 comments: true
 ---
 
-This isn't the first time the Virtual Reality Hype wave has spread across the world.
-Man has tried to create the ultimate VR experience back since before the 50s,
-with philosophers and authors describing such experiences hundreds of years earlier.
+Virtual Reality is all the rage nowadays, but this isn't the first time the Virtual Reality Hype wave has spread across the world.
+Man has tried to create the ultimate VR experience back since the 50s,
+and philosophers and authors have described VR experiences hundreds of years earlier still.
+So is the hype real this time?
+Is it finally the year of the Virtual Reality Headset?
 
 <img style="width: 48%" src="/images/Sensorama-morton-heilig-virtual-reality-headset.jpg">
 <img style="width: 48%" src="/images/Virtual-Boy-wController.jpg">
