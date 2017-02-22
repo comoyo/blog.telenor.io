@@ -24,9 +24,8 @@ Neither children nor adults are safe, as these poor fellows experience 😂😂.
 <video style="width: 48%" src="/images/child-vr-desk.mp4" autoplay loop title="Child falling when trying to lean on virtual table"></video>
 <video style="width: 48%" src="/images/vr-pool-falling.mp4" autoplay loop title="Man falling while playing pool"></video>
 
-But what made VR go from something contained withing huge arcade machines to something within the reach of so many people?
-After many years of less-than-satisfactory VR experiences both hardware,
-display technology, and software finally caught up to our imaginations.
+But what made VR go from something contained within huge arcade machines to something within the reach of so many people?
+After many years of less-than-satisfactory VR experiences, both hardware, display technology and software finally caught up to our imaginations.
 The modern VR revolution basically required this setup:
 
 <img style="width: 48%" src="/images/galaxy-s7.jpeg">
@@ -36,15 +35,16 @@ The modern VR revolution basically required this setup:
 
 Mobile screen technology has gotten so good, with such high resolutions, the technology could be re-used for Virtual Reality equipment.
 The founder and creator of Oculus Rift metaphorically duct-taped a phone to his head to verify the product idea 😍😍.
-Further development of screen technology allowed for higher refresh rates (95 being the breakpoint for a smooth VR experience),
-faster pixel switching between colors (always switching via the color black, to reduce headaches),
-and a powerful enough computer to drive this system at the required resolution 💻💻 and speed 🏎🏎.
+Further development of screen technology allowed for higher refresh rates than the first prototype (95 frames per second being the breakpoint for a smooth VR experience).
+It was also discovered that tricks that had worked well for regular computer monitors made the experience worse inside a VR headset. For instance, each time a new color is put on a pixel it would keep lighting until a new color was ready. This made for a terrible experience when moving your head, since it felt like the world was moving with you, making you feel seasick. Instead, VR headsets now always switch via the color black, and only blink the pixels in the correct color for short amounts of time.
+Finally, the ever-increasing power of GPUs have made more realistic and faster graphics possible.
+This means you still need a powerful computer with the latest tech to drive the systems at optimal resolution 💻💻 and speed 🏎🏎..
 
 <img style="width: 48%" src="/images/htc-vive.jpg">
 <img style="width: 48%" src="/images/job-simulator.png">
 
 In the above picture to the left, you can see someone using the HTC Vive with the controllers allowing the game to track you while you walk through virtual reality.
-In the right picture, you can see Job Simulator, a game allowing you to experience what future humans thought office work looked like back in the early 2000s.
+In the right picture, you can see Job Simulator, a game allowing you to experience what future humans think office work looked like back in the early 2000s.
 Being able to move around in your virtual cubicle is incredibly immersive 😂😂!
 
 With multiple top-of-the-line VR headsets on the market right now (Oculus Rift, HTC Vive, Sony Playstation VR),
